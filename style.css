@@ -5,7 +5,6 @@ body{
 }
 
 
-
 .row {
     color: rgb(255, 255, 255);
     font-weight: bold;  
@@ -22,6 +21,7 @@ body{
 
 .card:hover{
     transform: scale(1.1) !important;
+   
 }
 
 
@@ -98,6 +98,7 @@ body{
     border-radius: 2%;
     margin-top: 4rem;
     background-color: #000000;
+    
 }
 .card{
     color: #000000;
@@ -117,3 +118,5 @@ body{
     opacity: 0;
     }
 }
+
+

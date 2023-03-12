@@ -15,6 +15,12 @@
   * **CSS tricks**
   * **Figma**
   
+ ## **📎 Links:**
+
+▷ [Wireframe/Mockup](https://www.figma.com/file/twP7vyNB1iDSFtSqCj3etN/WireFrame%2BMockup?node-id=0%3A1&t=3bLgFFadG3RlFkVs-1)
+  
+▷ [Live URL](https://amani-alzyoud.github.io/Portfolio-Proj/)
+
 
 
 ***AWBGCE*** 🌼❤️ AMANI ZYOUD
