@@ -1,0 +1,119 @@
+body{
+    background-image: url(images/ones.gif) !important;
+    overflow-x: hidden;
+    
+}
+
+
+
+.row {
+    color: rgb(255, 255, 255);
+    font-weight: bold;  
+    text-align: center;
+    background-color: transparent;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-family: 'Cutive Mono';
+    
+   
+
+
+}
+
+.card:hover{
+    transform: scale(1.1) !important;
+}
+
+
+
+.align-items-center {
+    align-items: baseline;
+}
+
+.navbar{
+   
+    color: white;
+    justify-content: space-evenly !important;
+    font-family: 'Cutive Mono' !important;
+    font-weight: bold !important;
+    font-size: 1.3rem !important;
+   
+  
+}
+
+.nav-link:hover{
+    color: #fff;
+    text-shadow:
+        0 0 7px white,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #68c168,
+        0 0 82px #4fb74f,
+        0 0 92px #36ad36,
+        0 0 102px #1da31d,
+        0 0 151px #049904;
+}
+
+.neonText {
+        color: white;
+        text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #68c168,
+            0 0 82px #4fb74f,
+            0 0 92px #36ad36,
+            0 0 102px #1da31d,
+            0 0 151px #049904;
+      }
+
+
+      a:hover{
+        color: white !important;
+        text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #68c168,
+            0 0 82px #4fb74f,
+            0 0 92px #36ad36,
+            0 0 102px #1da31d,
+            0 0 151px #049904;
+      }
+
+#Hi{
+
+    color:#ffffff;
+    justify-content: center;
+    
+
+}
+
+
+
+.lead{
+    font-weight: bold !important;
+}
+.py-5 {
+    border-radius: 2%;
+    margin-top: 4rem;
+    background-color: #000000;
+}
+.card{
+    color: #000000;
+    font-weight: bold;
+   border: 0.05rem solid white !important;
+    background-color: rgb(255, 255, 255) !important;
+    
+    
+}
+.pb-2{
+    color:white !important;
+    font-family: 'Cutive Mono' !important;
+}
+
+@keyframes blinker {
+    50% {
+    opacity: 0;
+    }
+}
