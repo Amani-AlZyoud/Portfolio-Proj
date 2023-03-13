@@ -1,122 +1,174 @@
-body{
-    background-image: url(images/ones.gif) !important;
-    overflow-x: hidden;
-    
+body {
+  background-image: url(images/ones.gif);
+  overflow-x: hidden;
 }
-
 
 .row {
-    color: rgb(255, 255, 255);
-    font-weight: bold;  
-    text-align: center;
-    background-color: transparent;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    font-family: 'Cutive Mono';
-    
-   
-
-
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  font-family: "Cutive Mono";
 }
-
-.card:hover{
-    transform: scale(1.1) !important;
-   
-}
-
-
 
 .align-items-center {
-    align-items: baseline;
+  align-items: baseline;
 }
 
-.navbar{
-   
-    color: white;
-    justify-content: space-evenly !important;
-    font-family: 'Cutive Mono' !important;
-    font-weight: bold !important;
-    font-size: 1.3rem !important;
-   
-  
+#na {
+  color: white;
+  justify-content: space-evenly;
+  font-family: "Cutive Mono";
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
-.nav-link:hover{
-    color: #fff;
-    text-shadow:
-        0 0 7px white,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #68c168,
-        0 0 82px #4fb74f,
-        0 0 92px #36ad36,
-        0 0 102px #1da31d,
-        0 0 151px #049904;
+.n:hover {
+  color: #fff;
+  text-shadow: 0 0 7px white, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #68c168,
+    0 0 82px #4fb74f, 0 0 92px #36ad36, 0 0 102px #1da31d, 0 0 151px #049904;
 }
-
+#anime{
+  color: #ffffff; animation: blinker 1s 1s infinite;
+}
 .neonText {
-        color: white;
-        text-shadow:
-            0 0 7px #fff,
-            0 0 10px #fff,
-            0 0 21px #fff,
-            0 0 42px #68c168,
-            0 0 82px #4fb74f,
-            0 0 92px #36ad36,
-            0 0 102px #1da31d,
-            0 0 151px #049904;
-      }
-
-
-      a:hover{
-        color: white !important;
-        text-shadow:
-            0 0 7px #fff,
-            0 0 10px #fff,
-            0 0 21px #fff,
-            0 0 42px #68c168,
-            0 0 82px #4fb74f,
-            0 0 92px #36ad36,
-            0 0 102px #1da31d,
-            0 0 151px #049904;
-      }
-
-#Hi{
-
-    color:#ffffff;
-    justify-content: center;
-    
-
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #68c168,
+    0 0 82px #4fb74f, 0 0 92px #36ad36, 0 0 102px #1da31d, 0 0 151px #049904;
 }
 
-
-
-.lead{
-    font-weight: bold !important;
+a:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #68c168,
+    0 0 82px #4fb74f, 0 0 92px #36ad36, 0 0 102px #1da31d, 0 0 151px #049904;
 }
+
+#Hi {
+  color: #ffffff;
+  justify-content: center;
+  font-weight: bold;
+  text-align: left;
+}
+
+#Hi2 {
+  color: #ffffff;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 16rem;
+}
+
 .py-5 {
-    border-radius: 2%;
-    margin-top: 4rem;
-    background-color: #000000;
-    
+  border-radius: 2%;
+  margin-top: 4rem;
+  background-color: #000000;
 }
-.card{
-    color: #000000;
-    font-weight: bold;
-   border: 0.05rem solid white !important;
-    background-color: rgb(255, 255, 255) !important;
-    
-    
+.card {
+  color: #000000;
+  font-weight: bold;
+  border: 0.05rem solid white;
+  background-color: rgb(255, 255, 255);
 }
-.pb-2{
-    color:white !important;
-    font-family: 'Cutive Mono' !important;
+.pb-2 {
+  color: white;
+  font-family: "Cutive Mono";
 }
 
 @keyframes blinker {
-    50% {
+  50% {
     opacity: 0;
-    }
+  }
+}
+
+#about-me {
+  border: solid white;
+ 
+
+}
+
+#about-container{
+  margin-top: 13rem; width: auto;
+}
+
+#card-css {
+  width: 18rem;
+  text-align: left;
+  margin-right: 2.5rem;
+}
+
+#card-css:hover {
+  transform: scale(1.1);
+}
+
+#card-container {
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding-left: 2.5rem;
+}
+
+#contact-icon {
+  width: 3rem;
+  text-align: left;
+}
+
+#display-1 {
+  font-size: 3rem;
+  margin-top: 14rem;
+  margin-bottom: 6rem;
+  background-color: black;
+}
+
+#card-content {
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+  color: #049904;
+  text-transform: uppercase;
+  text-shadow: 0 0 black;
 }
 
 
+
+#hero-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Cutive Mono";
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+
+
+#hi-about{
+  font-family: Zeyada; font-size: 2.5rem; color: #049904;
+}
+
+#subhead-about{
+  color: #049904; font-size: 1.3rem;
+}
+
+#about-content{
+  text-align: initial; font-size: 1.2rem;
+}
+#footer-content{
+  font-weight: bold; text-align: initial;
+}
+
+#footer-align{
+  font-weight: bold; text-align: initial; align-self: baseline;
+}
+
+#no-underline{
+  text-decoration: none;
+}
+
+#green{
+  color: #049904;
+}
+
+@media only screen and (max-width: 700px) {
+  #about-me {
+    font-size: 50%;
+  }
+}
